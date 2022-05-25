@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import moment from 'moment'
-import parser from 'react-html-parser'
+import parser from 'html-react-parser'
 
 import { getComments } from '../../../services/graphql'
 
