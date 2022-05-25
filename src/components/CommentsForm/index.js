@@ -65,8 +65,56 @@ export const CommentsForm = ({ slug }) => {
   };
 
   return (
-    <div>
-
+    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
+      <h3 className="text-xl mb-8 font-semibold border-b pb-4">Deixe um comentário</h3>
+      <div className="grid grid-cols-1 gap-4 mb-4">
+        <textarea 
+          ref={commentEl}
+          className="p-4 resize-none outline-none w-full rounded-lg h-40 focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" 
+          name="comment" 
+          placeholder="Comentário" 
+        />
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+        <input 
+          ref={nameEl}
+          type="text" 
+          className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" 
+          placeholder="Nome" 
+          name="name" 
+        />
+        <input 
+          ref={emailEl}
+          type="email" 
+          className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700" 
+          placeholder="E-mail" 
+          name="email" 
+        />
+      </div>
+      <div className="grid grid-cols-1 gap-4 mb-4">
+        <div>
+          <input 
+            ref={storeDataEl}
+            type="checkbox" 
+            id="storeData" 
+            name="storeData" 
+            value="true" 
+          />
+          <label className="text-gray-500 cursor-pointer ml-2" htmlFor="storeData">Salve meu nome e e-mail, para a próxima vez que eu comentar.</label>
+        </div>
+      </div>
+      {error && <p className="text-xs text-red-500">Todos os campos são obrigatórios</p>}
+      <div className="mt-8 text-center sm:text-left">
+        <button 
+          type="button" 
+          onClick={handleCommentSubmit} 
+          className="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+        >
+          Postar Comentário
+        </button>
+        {showSuccessMessage && <span className="text-md mt-4 ml-8 font-medium text-green-500">Comentário enviado para revisão!</span>}
+      </div>
     </div>
   )
+  
 }
