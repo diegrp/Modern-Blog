@@ -25,11 +25,11 @@
 
 <br/>
 <h1 align="center">
-  <img alt="home page application" src="./assets/home.png" />
+  <img alt="home page application" src="./public/assets/home.png" />
   <p>Home Page</p>
-  <img alt="posts to application" src="./assets/posts.png" />
+  <img alt="posts to application" src="./public/assets/posts.png" />
   <p>All Posts to page</p>
-  <img alt="comment to application" src="./assets/comment.png" />
+  <img alt="comment to application" src="./public/assets/comment.png" />
   <p>Submit Comment to page</p>
 </h1>
 
