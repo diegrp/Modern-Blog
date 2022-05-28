@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ⚙️ Project Name 
 
-## Getting Started
+<p align="left">Modern Blog</p>
 
-First, run the development server:
+## ✍️ Project Description
+
+<p align="left">Blogger with deployments and their appropriate categories</p>
+
+## 🏁 Table of Contents
+
+- [About](#projectname)
+- [Table of Contents](#table-of-contents)
+- [Application View](#application-view)
+- [Requirements](#requirements)
+- [Technologies](#technologies)
+- [Author](#author)
+
+## 🪔 Project Status
+
+<p align="left"> 
+  🚀 Modern Blog is finish! 🔥
+</p>
+
+## 🖥️ Application View
+
+<br/>
+<h1 align="center">
+  <img alt="home page application" src="./assets/home.png" />
+  <p>Home Page</p>
+  <img alt="posts to application" src="./assets/posts.png" />
+  <p>All Posts to page</p>
+  <img alt="comment to application" src="./assets/comment.png" />
+  <p>Submit Comment to page</p>
+</h1>
+
+## ⛏️ Requirements
+
+• Before starting, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Also it's nice to have an editor to work with code like [VSCode](https://code.visualstudio.com/).
+
+## 🎲 Turning the Back End (Server)
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone <https://github.com/diegrp/nomedoprojeto>
+
+# Access the project folder in terminal/cmd
+$ cd nomedoprojeto
+
+# Install the dependencies
+$ yarn
+
+# Run the application in development mode
+$ yarn start
+
+# The server will start on port:3333 - access <http://localhost:3333>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+• The following tools were used in building the project: 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<b>code install: </b>npm i graphql graphql-request html-react-parser moment react-multi-carousel sass
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Graphql.js](https://graphql.org/graphql-js/)
+- [Graphql-request](https://github.com/prisma-labs/graphql-request)
+- [SASS](https://sass-lang.com/)
+- [Moment.js](https://momentjs.com/)
+- [Html-React-Parser](https://www.npmjs.com/package/html-react-parser)
+- [React-Multi-Carousel](https://www.npmjs.com/package/react-multi-carousel)
 
-## Learn More
+## 👨‍💼 Author
 
-To learn more about Next.js, take a look at the following resources:
+- Made with ❤️ by Diego Rocha !
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
